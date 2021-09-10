@@ -9,7 +9,7 @@ namespace dz24_06_21.Classes.Cars
     class HavalH9 : Car
     {
         
-        HavalH9()
+        public HavalH9()
             : base(EngineTypes.Gas, TransmissionTypes.Automatic, BodyTypes.TwoVolume)
         {
              

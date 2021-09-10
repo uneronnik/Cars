@@ -16,6 +16,7 @@ namespace dz24_06_21.Interfaces
         BodyTypes BodyType { get; }
         FuelTypes FuelType { get; }
 
+        void Show();
     }
 
 }

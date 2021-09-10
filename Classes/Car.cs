@@ -57,5 +57,13 @@ namespace dz24_06_21.Classes
         {
 
         }
+
+        public void Show()
+        {
+            Console.WriteLine($"EngineType: {_engineType}");
+            Console.WriteLine($"TransmissionType: {_transmissionType}");
+            Console.WriteLine($"BodyType: { _bodyType}");
+            Console.WriteLine($"FuelType: {_fuelType}");
+        }
     }
 }
