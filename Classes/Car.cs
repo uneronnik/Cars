@@ -45,13 +45,15 @@ namespace dz24_06_21.Classes
         public TransmissionTypes TransmissionType { get => _transmissionType; }
         public BodyTypes BodyType { get => _bodyType; }
         public FuelTypes FuelType { get => _fuelType; }
+        public int MaxSpeed { get => _maxSpeed; }
 
-        protected Car(EngineTypes engineType, TransmissionTypes transmissionType, BodyTypes bodyType)
+        protected Car(EngineTypes engineType, TransmissionTypes transmissionType, BodyTypes bodyType, int maxSpeed)
         {
             _engineType = engineType;
             _fuelType = (FuelTypes)(int)engineType;
             _transmissionType = transmissionType;
             _bodyType = bodyType;
+            _maxSpeed = maxSpeed;
         }
         protected Car()
         {

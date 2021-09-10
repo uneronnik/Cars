@@ -9,7 +9,7 @@ namespace dz24_06_21.Classes.Cars
     class FordMustang : Car
     {
         public FordMustang()
-            : base(EngineTypes.Gas, TransmissionTypes.Automatic, BodyTypes.ThreeVolume)
+            : base(EngineTypes.Gas, TransmissionTypes.Automatic, BodyTypes.ThreeVolume, 100)
         {
 
         }
